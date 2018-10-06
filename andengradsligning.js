@@ -4,18 +4,18 @@
 andengradsligning(1, 5, -6);
 
 // Her er vores input til a, b og c
-var a = prompt("Her skal du indsætte a: ");
-var b = prompt("Her skal du indsætte b: ");
-var c = prompt("Her skal du indsætte c: ");
+var inputA = prompt("Her skal du indsætte a: ");
+var inputB = prompt("Her skal du indsætte b: ");
+var inputC = prompt("Her skal du indsætte c: ");
 
 // Funktionen bliver kaldt og bruger dataen fra inputtet
-andengradsligning(a, b, c);
+andengradsligning(inputA, inputB, inputC);
 
 
 function andengradsligning(a, b, c) {
     var x1;
     var x2;
-    var d = diskriminant(a, b, c)
+    var d = diskriminant(a, b, c);
 
     x1 = (-b + Math.sqrt(d)) / 2*a;
     x2 = (-b - Math.sqrt(d)) / 2*a;
